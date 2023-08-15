@@ -1,12 +1,13 @@
 import './App.css';
 import Navbar from './navbar/navbar';
-import { useParams } from './context/context';
+import Grid from './grid/grid';
 function App() {
-  console.log(useParams())
+  
   return (
     
     <div className="App">
       <Navbar/>
+      <Grid/>
     </div>
   );
 }
